@@ -1,0 +1,12 @@
+% A sample program in the LET programming language,
+% illustrating nested scopes.
+
+let z = 5
+in let x = 3
+   in let y = -(x,1)     % here x = 3
+      in -(-(x, z), let x = 4
+                   in -(z, -(x,y))) % here x = 4
+
+% This example is from page 66
+% of _Essentials of Programming Languages_ (third edition)
+% by Daniel P. Friedman and Mitchell Wand.
