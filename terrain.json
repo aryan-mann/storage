@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "extent": {
+    "minLat": -90.0,
+    "maxLat": 90.0,
+    "minLon": -180.0,
+    "maxLon": 180.0
+  },
+  "setLimits": {
+    "layout": 277,
+    "minLevel": 2,
+    "maxLevel": 7,
+    "minCol": 0,
+    "minRow": 0,
+    "maxCol": 7,
+    "maxRow": 3
+  },
+  "content": {
+    "terrainFormat": "utr",
+    "terrainUri": ".",
+    "imageryFormat": "jpg",
+    "imageryUri": "."
+  }
+}
